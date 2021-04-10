@@ -8,9 +8,9 @@ ob_start();
 @session_start();
 
 // classes
-function __autoload($file){
-	require_once "classes/$file.class.php"; 
-}
+//function __autoload($file){
+//	require_once "classes/$file.class.php"; 
+//}
 
 // functions
 
